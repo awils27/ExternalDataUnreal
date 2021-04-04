@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "ExternalData",
+	"Description": "",
+	"Category": "Blueprints",
+	"CreatedBy": "Aiden",
+	"CreatedByURL": "https://www.linkedin.com/in/aiden-wilson-275/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ExternalData",
+			"Type": "Editor",
+			"LoadingPhase": "PreLoadingScreen",
+			"BlacklistPlatforms": [
+				"IOS"
+			]
+		}
+	]
+}
