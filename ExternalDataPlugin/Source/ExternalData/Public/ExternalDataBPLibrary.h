@@ -35,10 +35,10 @@ class UExternalDataBPLibrary : public UBlueprintFunctionLibrary
 
 public:
 
-	UFUNCTION(BlueprintCallable, Category = "Aiden Blueprint Libary", meta = (Keywords = "Load Float Data"))
+	UFUNCTION(BlueprintCallable, Category = "External Data", meta = (Keywords = "Load Float Data"))
 		static TArray<float> LoadFloatData(FString FileName);
 
-	UFUNCTION(BlueprintCallable, Category = "Aiden Blueprint Libary", meta = (Keywords = "Save Float Data"))
-		static bool SaveFloatData(TArray<float> SaveFloat, FString FileName);
+	UFUNCTION(BlueprintCallable, Category = "External Data", meta = (Keywords = "Save Float Data"))
+		static bool SaveFloatData(FString FileName, TArray<float> SaveFloat);
 
 };
